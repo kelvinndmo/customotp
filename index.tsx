@@ -1,8 +1,5 @@
 /// <reference path="index.d.ts" />
-import {
-  InputProps,
-  OTPInputViewState,
-} from "@twotalltotems/react-native-otp-input";
+import { InputProps, OTPInputViewState } from "@novak/custominput";
 import React, { Component } from "react";
 import {
   View,

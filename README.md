@@ -4,20 +4,21 @@
 
 ![Tests](https://github.com/Twotalltotems/react-native-otp-input/workflows/Tests/badge.svg)
 
-**@twotalltotems/react-native-otp-input** is a tiny Javascript library which provides an elegant UI for the end user to input one time passcode (OTP). It handles the input suggestion on iOS when the OTP SMS is received. For Android, it will autofill when the user presses the copy button on the SMS notification bar. It also features a carefully crafted flow to handle edge cases for volatile user gestures. We provide default UI, but you can always customize the appearance as you like.
+**@novak/custominput** is a tiny Javascript library which provides an elegant UI for the end user to input one time passcode (OTP). It handles the input suggestion on iOS when the OTP SMS is received. For Android, it will autofill when the user presses the copy button on the SMS notification bar. It also features a carefully crafted flow to handle edge cases for volatile user gestures. We provide default UI, but you can always customize the appearance as you like.
 
 ![demo.gif](https://s3.ca-central-1.amazonaws.com/tttevents/iosvideo.gif)
 ![demo.gif](https://s3.ca-central-1.amazonaws.com/tttevents/android.gif)
 
 ## Installation
 
-`npm install --save @twotalltotems/react-native-otp-input`
+`npm install --save @novak/custominput`
 or
-`yarn add @twotalltotems/react-native-otp-input`
+`yarn add @novak/custominput`
 
 ## Dependencies
 
-### NOTES: 
+### NOTES:
+
 From version 1.3.10: We use @react-native-community/clipboard to handle the clipboard in this package, So you should install @react-native-community/clipboard
 
 `npm install --save @react-native-community/clipboard`
@@ -27,7 +28,7 @@ or
 ## Basic Usage
 
 ```js
-import OTPInputView from '@twotalltotems/react-native-otp-input'
+import OTPInputView from '@novak/custominput'
 
 ...
 
@@ -38,7 +39,7 @@ import OTPInputView from '@twotalltotems/react-native-otp-input'
 ## More Advanced Usage
 
 ```js
-import OTPInputView from '@twotalltotems/react-native-otp-input'
+import OTPInputView from '@novak/custominput'
 
 ...
 
